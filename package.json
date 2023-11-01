@@ -4,7 +4,9 @@
   "description": "Proyecto de Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "server": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/undercovered/NodeJS-BienesRaices/issues"
   },
-  "homepage": "https://github.com/undercovered/NodeJS-BienesRaices#readme"
+  "homepage": "https://github.com/undercovered/NodeJS-BienesRaices#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
